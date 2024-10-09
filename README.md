@@ -2,14 +2,14 @@
 Simple command line tool for reading fandom wiki dumps
 
 # Acquiring dumps
-Find dumps for any fandom wiki at:
-*.fandom.com/wiki/Special:Statistics
+Find dumps for any fandom wiki at:  
+*.fandom.com/wiki/Special:Statistics  
 ex: https://dragonball.fandom.com/wiki/Special:Statistics
 
 Grab the "Current Pages" file from the Database dumps section at the bottom. It is a zip file that contains the dump in the form of an xml file.
 
 # Running the cleaner
-Run fandom_cleaner.py on the unzipped xml file to produce a "cleaned" version of the file that only contains the actual pages with contents. 
+Run fandom_cleaner.py on the unzipped xml file to produce a "cleaned" version of the file that only contains the actual pages with contents.  
 Essentially this strips out details about users, blogs, etcs.
 
 # Running the reader
@@ -38,5 +38,5 @@ etc...
 ```
 
 # todo
-improve search, potentially by category
+improve search, potentially by category  
 make page output easier to read
