@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # Parse the XML file
-tree = ET.parse('fandom_dump.xml')  # Replace 'input.xml' with your file path
+tree = ET.parse('dragonball_pages_current.xml')  # Replace 'input.xml' with your file path
 root = tree.getroot()
 
 # If there is a namespace in your XML, it can be something like this:
@@ -31,4 +31,4 @@ remaining_pages = root.findall('.//ns:page', ns)
 print(f"Total <page> elements remaining: {len(remaining_pages)}")
 
 # Save the modified XML back to a file
-tree.write('output.xml', encoding='utf-8', xml_declaration=True)
+tree.write('dragonball_ns0.xml', encoding='utf-8', xml_declaration=True)
