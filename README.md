@@ -16,6 +16,7 @@ Essentially this strips out details about users, blogs, etcs.
 Run fandom_reader.py on the cleaned file. Perform a simple search on page titles. Then view a page by typing the exact page title.
 
 Ex.
+```console
 >>>Enter a search:Goku
 Results for "Goku":
 
@@ -34,3 +35,8 @@ etc...
 {{Featured article}}
 {{Seealso|the original character|other uses|Goku (disambiguation)}}
 etc...
+```
+
+# todo
+improve search, potentially by category
+make page output easier to read
