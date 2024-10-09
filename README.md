@@ -6,7 +6,7 @@ Find dumps for any fandom wiki at:
 *.fandom.com/wiki/Special:Statistics
 ex: https://dragonball.fandom.com/wiki/Special:Statistics
 
-Grab the "Current Pages" file from the Database dumps section at the bottom. 
+Grab the "Current Pages" file from the Database dumps section at the bottom. It is a zip file that contains the dump in the form of an xml file.
 
 # Running the cleaner
 Run fandom_cleaner.py on the unzipped xml file to produce a "cleaned" version of the file that only contains the actual pages with contents. 
