@@ -38,5 +38,5 @@ etc...
 ```
 
 # todo
-improve search, potentially by category  
-make page output easier to read
+- improve search, potentially by category
+- make page output easier to read
