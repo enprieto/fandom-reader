@@ -36,6 +36,8 @@ etc...
 {{Seealso|the original character|other uses|Goku (disambiguation)}}
 etc...
 ```
+# fandom-cli-api.py
+uses fandom-py. interact with fandom via the command line. enter a fandom, do a page search, view a page and its sections
 
 # todo
 - improve search, potentially by category
